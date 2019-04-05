@@ -18,7 +18,7 @@ public class Phone {
 		
 		Phone phone1=new Phone();
 		 phone1.calling=true;
-		 phone1.camera=true;
+		 phone1.camera=true; 
 		 phone1.calling=true;
 		 phone1.model="IPhone";
 		 phone1.memory=128;
