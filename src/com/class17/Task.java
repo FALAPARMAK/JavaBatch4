@@ -15,8 +15,11 @@ public class Task {
 		Task obj=new Task();
 		obj.findLargest(2, 8);
 		obj.odEvenNumber(9);
-		obj.Paliondrome("dad");
 		
+		
+		String word="bob";
+		obj.Paliondrome(word);
+	
 		
 	}
   void findLargest(int a,int b) {
@@ -35,11 +38,12 @@ public class Task {
 			System.out.println("a is odd number");
 		}
 	}
+	
 	void Paliondrome(String word) {
 		String reverse="";
-		for(int a=word.length()-1; a>0; a--) {
+		for(int a=word.length()-1;   a>=0;   a--) {
 			reverse+=word.charAt(a);
-		}if(reverse.equals(word)) {
+		}if(reverse.equalsIgnoreCase(word)) {
 			
 			System.out.println(word+" is paliondrome");
 		}else {
