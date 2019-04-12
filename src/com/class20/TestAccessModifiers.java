@@ -7,7 +7,7 @@ public class TestAccessModifiers {
 		AccessModifiers obj=new AccessModifiers ();
 		obj.isPalindrome("madam");//accessing public method within same package
 		obj.reverseString("hello");//accessing protected method within same package
-		obj.sayHello();//accessing default method within same package
+		obj.sayHello("hello");//accessing default method within same package
 		//obj.getWordsFromString("Hello Students"); private method is not accessible
 		
 		System.out.println(obj.name1);//accessing default variable within same package
@@ -16,6 +16,6 @@ public class TestAccessModifiers {
 	}
 }
 
-
+ 
 
 

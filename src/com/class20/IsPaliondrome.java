@@ -4,6 +4,7 @@ public class IsPaliondrome {
 	
 	
 	 String name="Betul";
+	public String result;
 	
 	static String   Reverse(String name) {
 		

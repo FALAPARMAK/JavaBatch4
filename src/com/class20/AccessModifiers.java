@@ -58,6 +58,10 @@ public static void main(String[] args) {
       String[] words=str.split(" ");
       return words;
   }
+public void sayHello(String string) {
+	// TODO Auto-generated method stub
+	
+}
   
 
-}}
+}

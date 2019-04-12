@@ -37,7 +37,7 @@ public class Application {
 	
 	
 	int arr[] = { 34, 3, 4, 5, 6, 7, 8, 99, 10 };
-	int array[]= {2,33,44,1,/232,1000,134};
+	int array[]= {2,33,44,1,232,1000,134};
 	System.out.println("Printing the minumum value");
 	
 	System.out.println(Minumum.minOfValues(arr));

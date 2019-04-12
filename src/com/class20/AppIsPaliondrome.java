@@ -20,7 +20,7 @@ public class AppIsPaliondrome {
 	
 		System.out.println(obj.Reverse("bob"));
 		
-		String a=obj.str(result);
+		String a=obj.str(obj.result);
 		
 		
 	}
