@@ -1,11 +1,11 @@
 package com.class17_2;
 
-import java.util.Scanner;
+  import java.util.Scanner;
 
-class ScannerMethod {//default method
+ public class ScannerMethod {//default method
 
 	public static void main(String[] args) {
-		ScannerMethod obj = new ScannerMethod();
+		 ScannerMethod obj = new ScannerMethod();
 
 		Scanner scan = new Scanner(System.in);
 		int a = scan.nextInt();
