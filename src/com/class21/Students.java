@@ -13,7 +13,7 @@ public class Students{
 	 String studentName;
 	 int StudentID;
 	 int numberOfStudents;
-	
+	static int totalNumber;
 	
 
 	public static void main(String[] args) {
@@ -26,11 +26,13 @@ public class Students{
         student1.studentName="Anna";
 		student2.studentName="Tonny";
 		student3.studentName="Maria";
+		totalNumber++;
 		
 		
 		student1.StudentID=101;
 		student2.StudentID=102;
 		student3.StudentID=103;
+		totalNumber++;
 		
 		student1.numberOfStudents=5;
 		student2.numberOfStudents=6;

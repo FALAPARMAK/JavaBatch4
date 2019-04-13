@@ -3,7 +3,7 @@ package com.class21;
 public class Dog {
 
 
-	static String breed="Husky";
+	static String breed="Husky";// global, instance
 	static int paws=4;
 	String name;
 	int weight;

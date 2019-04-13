@@ -3,7 +3,7 @@ package com.class21;
 public class LocalVariables {
 
 	public static void main(String[] args) {
-		String name="John";
+		 String name="John";
 		//System.out.println(name);
 
 		LocalVariables obj=new LocalVariables();
