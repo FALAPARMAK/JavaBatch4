@@ -19,3 +19,4 @@ public class ConstructorsTypes {
 		ConstructorsTypes obj2=new ConstructorsTypes(123,"String");
 	}
 }
+ 
