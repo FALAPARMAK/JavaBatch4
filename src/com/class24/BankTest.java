@@ -10,6 +10,7 @@ public class BankTest {
 		
 		int interestRate;
 		
+		
 	}
 
 }

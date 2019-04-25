@@ -18,4 +18,4 @@ class Child extends Parent{
 		System.out.println("Child cry");
 	}
 	
-}
+} 

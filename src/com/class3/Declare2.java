@@ -1,6 +1,6 @@
 package com.class3;
 
-public class Declare2 {
+ public class Declare2 {
 
 	public static void main(String[] args) {
 		

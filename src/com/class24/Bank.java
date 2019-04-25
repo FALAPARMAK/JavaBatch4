@@ -2,7 +2,7 @@ package com.class24;
 
 public class Bank {
 	
-	public int chargeInterest() {
+	public int chargeInterest() {//Overriden 
 		return 0;
 	}
 }
@@ -10,7 +10,7 @@ public class Bank {
 
        //1.child 
 	    class BOA extends Bank{ 
-		   //override//annotation
+		   @Override    //annotation
 		   public int chargeInterest() {
 			return 2;
 		
@@ -19,6 +19,7 @@ public class Bank {
 		
 		// 2.child class
 		class PNC extends Bank {
+			
 			   public int chargeInterest() {
 				return 3;
 			}

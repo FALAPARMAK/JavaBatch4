@@ -1,6 +1,6 @@
 package com.class23;
 
-public class Test {
+public class TestScrumTeam {
 	public static void main(String[] args) {
 		System.out.println(" ------Creating employee object--------");
 		Employee emp=new Employee();
