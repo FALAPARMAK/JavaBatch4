@@ -18,6 +18,7 @@ public class NonGeneric {
 		for(String str:city) {
 			System.out.println(str);
 		}
+		
 		System.out.println("---------------------");
 		int i=0;
 		while(city.size()>i){

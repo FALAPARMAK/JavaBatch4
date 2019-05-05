@@ -28,7 +28,9 @@ public class Arr {
 		num.add(555);
 		num.add(666);
 		
-		System.out.println(num.get(5));
+		
+		
+		System.out.println(num.get(2));
 		num.remove(1);
 		
 		System.out.println(num.clone());//for all elements   you can write only (num)
@@ -36,6 +38,9 @@ public class Arr {
 		System.out.println(num);
 		
 		
+		}
+		
+		
 	}
 
-}
+
