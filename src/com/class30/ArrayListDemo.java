@@ -19,7 +19,8 @@ public class ArrayListDemo {
 		greetings.add("How are you?");
 		greetings.add("How are you?");
 		System.out.println(greetings.size());
-		
+		System.out.println("   -------   ");
+		greetings.get(1);
 		
 		
 		

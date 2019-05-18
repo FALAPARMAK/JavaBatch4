@@ -18,13 +18,30 @@ public class BestBuy {
 
 		System.out.println(store);
 		for (Map.Entry<Integer, String> ent : store.entrySet()) {
+			
 			System.out.println(ent.getKey() + "= " + ent.getValue());
 		}
+		
+		
+		
+		
 		System.out.println("---------------------");
 		Iterator<Map.Entry<Integer, String>> it = store.entrySet().iterator();
 		while (it.hasNext()) {
 			Map.Entry<Integer, String> me = it.next();
 			System.out.println(me.getKey() + "= " + me.getValue());
+			
+		}//Remove key and value
+		 //Replace
+		store.remove(7664847, "Printer");
+		store.replace(7664849, "Com");
+		
+		System.out.println(store);
+		Iterator<Map.Entry<Integer, String>> itt = store.entrySet().iterator();
+		while (itt.hasNext()) {
+			Map.Entry<Integer, String> me = itt.next();
+			System.out.println(me.getKey() + "= " + me.getValue());
+			
 		}
 	}
 
